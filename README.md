@@ -84,7 +84,7 @@ SmartRute Bengkulu bekerja sebagai sistem berbasis web yang menggabungkan data g
 
 ## 🧭 Diagram Alur Sistem
 
-
+<img src="Diagram.svg" alt="Diagram Alur Sistem" width="600"/>
 
 
 ### 📁 Struktur Folder Proyek
