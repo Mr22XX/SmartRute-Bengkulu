@@ -88,26 +88,29 @@ SmartRute Bengkulu bekerja sebagai sistem berbasis web yang menggabungkan data g
 
 
 ### 📁 Struktur Folder Proyek
-smartrute/
-│
-├── _pycache_/             # Folder auto-generated untuk cache Python bytecode
-│
-├── cache/                   # Folder penyimpanan sementara atau data hasil proses
-│
-├── about.html               # Halaman HTML untuk informasi tentang aplikasi
-│
-├── bengkulu.graphml         # File data graf wilayah (peta rute), format GraphML
-│
-├── index.html               # Halaman utama antarmuka pengguna
-│
-├── main.py                  # File utama Python untuk menjalankan aplikasi
-│
-├── navigation_map.html      # Halaman HTML untuk menampilkan peta navigasi
-│
-├── requirements.txt         # Daftar dependensi Python yang diperlukan
-│
-└── rf_model.pkl             # Model machine learning yang diserialisasi (format Pickle)
+    smartrute/
+    │
+    ├── _pycache_/             # Folder auto-generated untuk cache Python bytecode
+    │
+    ├── cache/                   # Folder penyimpanan sementara atau data hasil proses
+    │
+    ├── about.html               # Halaman HTML untuk informasi tentang aplikasi
+    │
+    ├── bengkulu.graphml         # File data graf wilayah (peta rute), format GraphML
+    │
+    ├── index.html               # Halaman utama antarmuka pengguna
+    │
+    ├── main.py                  # File utama Python untuk menjalankan aplikasi
+    │
+    ├── navigation_map.html      # Halaman HTML untuk menampilkan peta navigasi
+    │
+    ├── requirements.txt         # Daftar dependensi Python yang diperlukan
+    │
+    └── rf_model.pkl             # Model machine learning yang diserialisasi (format Pickle)
 ---
+
+
+
 ## 🔮 Pengembangan Lanjutan
 
 SmartRute Bengkulu terus dikembangkan agar lebih bermanfaat dan efisien dalam mendukung mobilitas masyarakat. Beberapa fitur pengembangan ke depan:
